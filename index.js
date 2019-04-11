@@ -21,7 +21,7 @@ function sayHiToGrandma(string){
   else if(string === string.toUpperCase){
         expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   }
-  else if(string === string.toLowerCase){
+  else if(string === string.toLowerCase ){
     return "I can\'t hear you!"
   }
 }
