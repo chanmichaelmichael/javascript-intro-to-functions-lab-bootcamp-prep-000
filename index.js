@@ -19,6 +19,10 @@ function sayHiToGrandma(string){
     return "I love you too"
   }
   else if(){
+        expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+
+  }
+  else if(){
     
   }
 }
